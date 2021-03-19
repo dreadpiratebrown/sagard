@@ -769,7 +769,7 @@ At dawn, the burnt orange light of a Ratikkan dawn paints the mountains to the s
         text: `A mysterious fog shrouds the valley, like a lacy curtain of death. High above, the mountain peaks melt
 into the clouds, and before you the skeletal shapes of gnarled trees line a frozen riverbank which meanders down through the valley. The scent of charred wood tickles your nose. Somewhere, not far away, is a dying fire.
 
-Following the smoke, you come upon two small, tattered skin tents. Stalking closer, you can detect nothing of interest in the camp, save for an ornately pointed Tehnite shield. You know not what the strange men of Tehn are doing this far east, but you lust for the shield. It would protect you well in a battle if you could steal it, and it would serve as a fine trophy if you could take it back to your tribe.
+Following the smoke, you come upon two small, tattered skin tents. Stalking closer, you can detect nothing of interest in the camp, save for an ornately painted Tehnite shield. You know not what the strange men of Tehn are doing this far east, but you lust for the shield. It would protect you well in a battle if you could steal it, and it would serve as a fine trophy if you could take it back to your tribe.
         
 Taking the shield is extremely dangerous. Tehnites are brutal fighters, and the tents indicate that there are two of them.`,
         choices: [
@@ -1375,7 +1375,10 @@ Something hideous has happened here, but the silence of the walls gives no hint 
                 btnText: 'Exit the cave',
                 sectionId: 'the-valleys-end'
             }
-        ]
+        ],
+        updates: {
+            xp: 2
+        }
     },
     {
         section: 70.1,
@@ -2045,6 +2048,13 @@ In the far distance, you hear loud cracking sounds. It is as if, when the Ice Dr
                 btnText: 'Save the Teknikans',
                 sectionId: 'saving-the-teknikans'
             }
+        ],
+        trophies: [
+            {
+                name: 'Heart of the Ice Dragon',
+                points: 20,
+                add: true
+            },
         ]
     },
     {
@@ -2064,11 +2074,6 @@ Later, you make your way back to where you stashed your other trophies. You pick
         ],
         updates: {
             trophies: [
-                {
-                    name: 'Heart of the Ice Dragon',
-                    points: 20,
-                    add: true
-                },
                 {
                     name: 'Stuffed bat',
                     remove: true
@@ -2204,7 +2209,14 @@ Drawing closer to the Ice Golem, you see that he is melting like the rest of the
             }
         ],
         updates: {
-            hp: 20
+            hp: 20,
+            trophies: [
+                {
+                    name: 'Heart of the Ice Dragon',
+                    points: 20,
+                    add: true
+                },
+            ]
         }
     },
     {
@@ -2243,7 +2255,7 @@ Drawing closer to the Ice Golem, you see that he is melting like the rest of the
     },
     {
         section: 111,
-        id: 'beating-the-ice-golem',
+        id: 'beating-the-ice-golem-2',
         title: 'Beating the Ice Golem',
         text: `With a last mighty lunge, the Ice Golem swings at you, pulling you off your feet and sending you through the air. You travel through the darkness and, looking down, you see the water rushing below. Closing your eyes in terror, you await your plummet to the roaring river. Surprisingly, you land on mushy, icy ground. The Ice Golem knocked you across the river.
 

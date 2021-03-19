@@ -83,7 +83,7 @@ export default {
             if(value === 1) {
                 this.$store.dispatch('resetAll');
             }
-            
+
             if(value===53) {
                 this.$store.dispatch('updateLostToKnight', 1);
                 if(this.$store.getters['lostToKnight']===1) {
@@ -120,7 +120,7 @@ export default {
                             sectionId: '/battle/the-man-in-white'
                         }
                     ]
-                } else if(this.$store.getters['menInWhite'] === 2) {
+                } else if(this.$store.getters['menInWhite'] >= 2) {
                     this.currentSection.choices = [
                         {
                             btnText: 'Both are dead',

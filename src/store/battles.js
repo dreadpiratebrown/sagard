@@ -816,25 +816,25 @@ The only way to evade the River Monster is to swim past it. To do this, you will
                 name: 'Zokaper 1',
                 level: 1,
                 hp: 8,
-                icon: 'whip.svg'
+                icon: 'cowled.svg'
             },
             {
                 name: 'Zokaper 2',
                 level: 1,
                 hp: 8,
-                icon: 'whip.svg'
+                icon: 'cowled.svg'
             },
             {
                 name: 'Zokaper 3',
                 level: 1,
                 hp: 8,
-                icon: 'whip.svg'
+                icon: 'cowled.svg'
             },
             {
                 name: 'Zokaper 4',
                 level: 1,
                 hp: 8,
-                icon: 'whip.svg'
+                icon: 'cowled.svg'
             }
         ],
         success: {
@@ -928,7 +928,7 @@ Turning, you see the Ice Golem leering down at you. He is not nearly as formidab
         ],
         success: {
             text: 'You have successfully defeated the Ice Golem',
-            target: '/section/beating-the-ice-golem'
+            target: '/section/beating-the-ice-golem-2'
         },
         failure: {
             text: 'You may fight no more',
