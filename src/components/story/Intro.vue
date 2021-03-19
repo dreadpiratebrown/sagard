@@ -6,6 +6,12 @@
         <p>When I learned VueJS, I needed a project to make, to strenghten my skills. I remembered the Sagard books and went looking for them, and lo and behold, I found them on the Home of the Underdogs. I decided to see if I could adapt the first book to the computer age using Vue. Here is my attempt.</p>
         <p>Note: I claim no ownership over the Sagard content. IANAL, but I assume the copyright still stands since the books are less than 30 years old, even though they're out of print. If there is a copyright dispute, I'll happily take this down and write my own book.</p>
         <base-button to="section/introduction" link>Begin your quest!</base-button>
+        <h2>Attributions</h2>
+        <ul>
+            <li>Text: Gary Gygax and Flint Dille</li>
+            <li>Icons: Delapouite, Lorc, sparker, Kier Heyl, Cathelineau. Available on https://game-icons.net</li>
+            <li>Vue assistance: Bobby McDonald, Chris Violette, Dan Ott, and the #clejs folk on the Cleveland Tech Slack instance.</li>
+        </ul>
     </section>
 </template>
 
@@ -20,3 +26,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+section { 
+    max-width: 38rem;
+}
+</style>
