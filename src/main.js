@@ -4,11 +4,16 @@ import mitt from 'mitt';
 
 import store from './store/index.js';
 import App from './App.vue';
+import Intro from './components/story/Intro.vue';
 import StorySection from './components/story/StorySection.vue';
 import StoryBattle from './components/story/StoryBattle.vue';
 
 const router = createRouter({
     routes: [
+        {
+            path: '/',
+            component: Intro
+        },
         {
             path: '/section/:id',
             component: StorySection,
