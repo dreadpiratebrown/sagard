@@ -26,6 +26,7 @@ V 0.1 - complete
 
 To Do:
 
+- Save current section in local storage so users can come back to it later. Alternatively: add auth functionality?
 - Put the story and battle content in a database and use fetch calls to retrieve it. Right now it's all loaded in two static JSON files and 170K of JSON feels like a lot.
 - Prevent page refresh from resetting battles and multiplying XP gains.
 - Write a more robust event engine so there aren't so many singleton listeners. The goal is to have a text game engine that can use any story and battle data, rather than a discrete application per book. Note: this may not be possible. Since the writers could put literally any conditions in the book, it would be up to the reader to follow the instructions. I'll know better once I start on Book 2.
