@@ -33,6 +33,7 @@ To Do:
 - Better icons for battles.
 - Better battle UI.
 - Annotations. The writing is, how do you say? Ah yes. Not so good. I want to add my own comments & criticisms in an unobtrusive way.
+- Responsive styles so it works on phones and other small devices.
 
 ### Contribute
 
