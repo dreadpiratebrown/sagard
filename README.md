@@ -33,6 +33,10 @@ To Do:
 - Better battle UI.
 - Annotations. The writing is, how do you say? Ah yes. Not so good. I want to add my own comments & criticisms in an unobtrusive way.
 
+### Contribute
+
+Open an issue or submit a PR.
+
 ### License
 
 MIT © Joshua Brown 2021
