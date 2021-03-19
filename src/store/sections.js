@@ -21,11 +21,11 @@ To the west lie the Rakers, a dark mountain vastness. They are largely unmapped,
         choices: [
             {
                 btnText: 'Head to the west',
-                sectionId: '/section/leaving-home'
+                sectionId: 'leaving-home'
             },
             {
                 btnText: 'Take the southern route',
-                sectionId: '/section/the-journey-south'
+                sectionId: 'the-journey-south'
             }
         ]
     },
@@ -48,11 +48,11 @@ Suddenly, you hear a low growl. The hair at the nape of your neck stands up, and
         choices: [
             {
                 btnText: 'Will you fight the Mountain Lion?',
-                sectionId: '/battle/fighting-the-mountain-lion'
+                sectionId: '/sagard/battle/fighting-the-mountain-lion'
             },
             {
                 btnText: 'Or will you leave the cave to escape the Mountain Lion?',
-                sectionId: '/section/the-frost-fighters'
+                sectionId: 'the-frost-fighters'
             }
         ]
     },
@@ -73,11 +73,11 @@ You must fight the Frost Fighters, but you may use one of two strategies. You ma
         choices: [
             {
                 btnText: 'Surprise Attack',
-                sectionId: '/battle/attacking-the-frost-fighters'
+                sectionId: '/sagard/battle/attacking-the-frost-fighters'
             },
             {
                 btnText: 'Move',
-                sectionId: '/battle/fighting-the-frost-fighters-one-by-one'
+                sectionId: '/sagard/battle/fighting-the-frost-fighters-one-by-one'
             }
         ]
     },
@@ -191,7 +191,7 @@ Your hand creeps stealthily to the shaft of your spear; you don’t know whether
         choices: [
             {
                 btnText: 'Strike at the figure',
-                sectionId: '/battle/striking-at-the-shadow'
+                sectionId: '/sagard/battle/striking-at-the-shadow'
             },
             {
                 btnText: 'Talk to the figure',
@@ -255,7 +255,7 @@ camp. In the distance, you hear the whistle of wind through trees, and in moment
         choices: [
             {
                 btnText: 'Prepare for combat',
-                sectionId: '/battle/two-tehnites-in-the-mist'
+                sectionId: '/sagard/battle/two-tehnites-in-the-mist'
             }
         ]
     },
@@ -476,7 +476,7 @@ They swing their slaving clubs at you, thus giving each of them 1 free attack.`,
         choices: [
             {
                 btnText: 'The traders attack first!',
-                sectionId: '/battle/fighting-the-medigian-traders'
+                sectionId: '/sagard/battle/fighting-the-medigian-traders'
             }
         ]
     },
@@ -497,7 +497,7 @@ Suddenly, and without warning, the two traders jump from their carriage. You are
         choices: [
             {
                 btnText: 'The traders attack first!',
-                sectionId: '/battle/fighting-the-medigian-traders'
+                sectionId: '/sagard/battle/fighting-the-medigian-traders'
             }
         ]
     },
@@ -513,7 +513,7 @@ Before they can react, you get 4 free attacks.`,
         choices: [
             {
                 btnText: 'Attack!',
-                sectionId: '/battle/surprising-the-medigian-traders'
+                sectionId: '/sagard/battle/surprising-the-medigian-traders'
             }
         ]
     },
@@ -564,11 +564,11 @@ You know that you can outrun the traders, but the Ratikkan woman cannot. You thi
         choices: [
             {
                 btnText: 'Slip off into the night',
-                sectionId: '/battle/breaking-free-of-the-cage'
+                sectionId: '/sagard/battle/breaking-free-of-the-cage'
             },
             {
                 btnText: 'Fight the traders',
-                sectionId: '/battle/fighting-the-medigian-traders-2'
+                sectionId: '/sagard/battle/fighting-the-medigian-traders-2'
             }
         ],
         updates: {
@@ -775,7 +775,7 @@ Taking the shield is extremely dangerous. Tehnites are brutal fighters, and the 
         choices: [
             {
                 btnText: 'Take the shield',
-                sectionId: '/battle/two-tehnites-in-the-mist'
+                sectionId: '/sagard/battle/two-tehnites-in-the-mist'
             },
             {
                 btnText: 'Avoid the Tehnites',
@@ -801,7 +801,7 @@ For several minutes you wait, but you hear no sound of the Tehnites. As night fa
         choices: [
             {
                 btnText: 'There are other battles to be fought',
-                sectionId: '/battle/the-furred-snake'
+                sectionId: '/sagard/battle/the-furred-snake'
             }
         ],
         updates: {
@@ -839,7 +839,7 @@ This shield counts as both a **weapon** and a **trophy**. As a weapon, it will a
         choices: [
             {
                 btnText: 'Your quest continues...',
-                sectionId: '/battle/the-furred-snake'
+                sectionId: '/sagard/battle/the-furred-snake'
             }
         ],
         updates: {
@@ -904,7 +904,7 @@ _Warning_: You are entering an extremely dangerous place. Proceed with courage a
         choices: [
             {
                 btnText: 'Enter the crevasse',
-                sectionId: '/battle/the-crevasse'
+                sectionId: '/sagard/battle/the-crevasse'
             },
             {
                 btnText: 'Investigate the natural cave',
@@ -949,7 +949,7 @@ on the inner walls long ago and have been nearly rubbed off by running water thr
         choices: [
             {
                 btnText: 'Slide down the waterfall',
-                sectionId: '/battle/the-zokapers'
+                sectionId: '/sagard/battle/the-zokapers'
             },
             {
                 btnText: 'Try one of the other caves',
@@ -976,7 +976,7 @@ Though Ratikkans do not wear plate armor, you will wear chain mail on occasion. 
         choices: [
             {
                 btnText: 'Fight the Plumed Knight',
-                sectionId: '/battle/fighting-the-plumed-knight'
+                sectionId: '/sagard/battle/fighting-the-plumed-knight'
             }
         ]
     },
@@ -1003,7 +1003,7 @@ As you put on the mail shirt, you hear several voices. In the distance, you see 
         choices: [
             {
                 btnText: 'Stalk carefully',
-                sectionId: '/battle/the-young-aerdian-warriors'
+                sectionId: '/sagard/battle/the-young-aerdian-warriors'
             }
         ],
         updates: {
@@ -1176,7 +1176,7 @@ Your eyes struggle vainly for a mirror or another object that will tell you how 
         choices: [
             {
                 btnText: 'Fight the sage',
-                sectionId: '/battle/fighting-the-frusti-sage'
+                sectionId: '/sagard/battle/fighting-the-frusti-sage'
             },
             {
                 btnText: 'Give him the sword',
@@ -1197,7 +1197,7 @@ He hands you a spear and laughs at you again. Now that you have seen him, you ma
         choices: [
             {
                 btnText: 'Fight!',
-                sectionId: '/battle/fighting-for-your-sword'
+                sectionId: '/sagard/battle/fighting-for-your-sword'
             },
             {
                 btnText: 'Leave',
@@ -1288,7 +1288,7 @@ You can either fight or make a graceful exit. In this issue, you are of two mind
         choices: [
             {
                 btnText: 'Fight the Ratikkan boy',
-                sectionId: '/battle/fighting-the-ratikkan-boy'
+                sectionId: '/sagard/battle/fighting-the-ratikkan-boy'
             },
             {
                 btnText: 'Leave gracefully',
@@ -1394,7 +1394,7 @@ As you finish the bird, a high-pitched, guttural sound pierces your ears. Wheeli
         choices: [
             {
                 btnText: 'Defend yourself!',
-                sectionId: '/battle/fighting-the-kobolds'
+                sectionId: '/sagard/battle/fighting-the-kobolds'
             }
         ],
         updates: {
@@ -1471,7 +1471,7 @@ As it lumbers toward you with its deadly icicle, you plot a way to slip between 
         choices: [
             {
                 btnText: 'Prepare to evade the golem',
-                sectionId: '/battle/the-ice-golem'
+                sectionId: '/sagard/battle/the-ice-golem'
             }
         ]
     },
@@ -1576,7 +1576,7 @@ Quickly, you draw your sword and slay two of them. Taking refuge in one of the c
         choices: [
             {
                 btnText: 'Continue exploring',
-                sectionId: '/battle/the-great-white-beast'
+                sectionId: '/sagard/battle/the-great-white-beast'
             }
         ],
         updates: {
@@ -1651,7 +1651,7 @@ The pelt of the Yeti would be a trophy to hang proudly in the hunters’ cabin; 
         choices: [
             {
                 btnText: 'Fight for your trophy',
-                sectionId: '/battle/fighting-the-yeti'
+                sectionId: '/sagard/battle/fighting-the-yeti'
             }
         ],
         roll: [
@@ -1661,7 +1661,7 @@ The pelt of the Yeti would be a trophy to hang proudly in the hunters’ cabin; 
             },
             {
                 btnText: 'Attempt to get out',
-                sectionId: '/battle/fighting-the-yeti'
+                sectionId: '/sagard/battle/fighting-the-yeti'
             }
         ]
     },
@@ -1813,7 +1813,7 @@ You barbarian instincts tingle. There is something terrible down here.`,
         choices: [
             {
                 btnText: 'Find out what is down here',
-                sectionId: '/battle/guardian-of-the-river'
+                sectionId: '/sagard/battle/guardian-of-the-river'
             }
         ]
     },
@@ -1926,7 +1926,7 @@ Suddenly, the four men charge. You draw your gleaming sword and brace for the at
         choices: [
             {
                 btnText: 'Onward to glory!',
-                sectionId: '/battle/fighting-the-zokapers'
+                sectionId: '/sagard/battle/fighting-the-zokapers'
             }
         ]
     },
@@ -2042,7 +2042,7 @@ In the far distance, you hear loud cracking sounds. It is as if, when the Ice Dr
         choices: [
             {
                 btnText: 'Dash for your life',
-                sectionId: '/battle/dashing-for-your-life'
+                sectionId: '/sagard/battle/dashing-for-your-life'
             },
             {
                 btnText: 'Save the Teknikans',
@@ -2205,7 +2205,7 @@ Drawing closer to the Ice Golem, you see that he is melting like the rest of the
         choices: [
             {
                 btnText: 'Prepare to do battle',
-                sectionId: '/battle/rematch-with-the-ice-golem'
+                sectionId: '/sagard/battle/rematch-with-the-ice-golem'
             }
         ],
         updates: {
@@ -2249,7 +2249,7 @@ Drawing closer to the Ice Golem, you see that he is melting like the rest of the
         choices: [
             {
                 btnText: 'Brace yourself',
-                sectionId: '/battle/rematch-with-the-ice-golem'
+                sectionId: '/sagard/battle/rematch-with-the-ice-golem'
             }
         ]
     },
@@ -2451,7 +2451,7 @@ In the distance there is a glowing light. Thinking that the men will be there, y
         choices: [
             {
                 btnText: 'Swim toward the light',
-                sectionId: '/battle/guardian-of-the-river'
+                sectionId: '/sagard/battle/guardian-of-the-river'
             }
         ]
     }

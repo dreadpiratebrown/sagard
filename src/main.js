@@ -11,21 +11,22 @@ import StoryBattle from './components/story/StoryBattle.vue';
 const router = createRouter({
     routes: [
         {
-            path: '/',
+            path: '/sagard/',
             component: Intro
         },
         {
-            path: '/section/:id',
+            path: '/sagard/section/:id',
             component: StorySection,
             props: true
         },
         {
-            path: '/battle/:id',
+            path: '/sagard/battle/:id',
             component: StoryBattle,
             props: true
         }
     ],
-    history: createWebHistory()
+    history: createWebHistory(),
+    base: '/sagard/'
 })
 
 const emitter = mitt();

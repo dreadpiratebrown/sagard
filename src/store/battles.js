@@ -13,14 +13,14 @@ const battles = [
         ],
         success: {
             text: "You have beaten the Mountain Lion",
-            target: '/section/the-mountain-lions-cave'
+            target: '/sagard/section/the-mountain-lions-cave'
         },
         failure: {
             text: "You are too badly wounded to continue",
-            target: '/section/beaten-by-the-mountain-lion'
+            target: '/sagard/section/beaten-by-the-mountain-lion'
         },
         canFlee: true,
-        flee: '/section/the-frost-fighters'
+        flee: '/sagard/section/the-frost-fighters'
     },
     {
         section: 5,
@@ -67,11 +67,11 @@ surprised by a human on a mountain trail. This gives you an attack advantage of 
         ],
         success: {
             text: "You have defeated the Frost Fighters",
-            target: '/section/the-wreckage-of-the-frost-fighters'
+            target: '/sagard/section/the-wreckage-of-the-frost-fighters'
         },
         failure: {
             text: "You are too badly wounded to continue",
-            target: '/section/losing-to-the-frost-fighters'
+            target: '/sagard/section/losing-to-the-frost-fighters'
         }
     },
     {
@@ -115,11 +115,11 @@ and charge toward you. Fortunately, they can only strike you one at a time. You 
         oneByOne: true,
         success: {
             text: "You have defeated the Frost Fighters",
-            target: '/section/the-wreckage-of-the-frost-fighters'
+            target: '/sagard/section/the-wreckage-of-the-frost-fighters'
         },
         failure: {
             text: "You are too badly wounded to continue",
-            target: '/section/losing-to-the-frost-fighters'
+            target: '/sagard/section/losing-to-the-frost-fighters'
         }
     },
     {
@@ -146,18 +146,18 @@ She strikes once; then you have the option of either breaking off the attack or 
             choices: [
                 {
                     btnText: 'Break off',
-                    target: '/section/breaking-off-the-attack'
+                    target: '/sagard/section/breaking-off-the-attack'
                 }
             ],
             closeBtn: 'Continue the attack'
         },
         success: {
             text: 'You have defeated the Ratikkan girl',
-            target: '/section/defeating-the-ratikkan-girl'
+            target: '/sagard/section/defeating-the-ratikkan-girl'
         },
         failure: {
             text: 'You are too badly wounded to continue',
-            target: '/section/losing-to-the-ratikkan-girl'
+            target: '/sagard/section/losing-to-the-ratikkan-girl'
         }
     },
     {
@@ -183,14 +183,14 @@ She strikes once; then you have the option of either breaking off the attack or 
         ],
         success: {
             text: 'You have defeated the Medigian traders',
-            target: '/section/beating-the-medigian-traders'
+            target: '/sagard/section/beating-the-medigian-traders'
         },
         failure: {
             text: 'You are unconscious',
-            target: '/section/the-face-in-the-mist'
+            target: '/sagard/section/the-face-in-the-mist'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-medigian-traders'
+        flee: '/sagard/section/fleeing-the-medigian-traders'
     },
     {
         section: 28.2,
@@ -215,14 +215,14 @@ She strikes once; then you have the option of either breaking off the attack or 
         ],
         success: {
             text: 'You have defeated the Medigian traders',
-            target: '/section/beating-the-medigian-traders'
+            target: '/sagard/section/beating-the-medigian-traders'
         },
         failure: {
             text: 'You are unconscious',
-            target: '/section/the-face-in-the-mist'
+            target: '/sagard/section/the-face-in-the-mist'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-medigian-traders'
+        flee: '/sagard/section/fleeing-the-medigian-traders'
     },
     {
         section: 33,
@@ -266,11 +266,11 @@ Your enemies stop in their tracks. Growling ursine curses, red fire burning in i
         ],
         success: {
             text: 'You have defeated the Devil-Bear',
-            target: '/section/defeating-the-devil-bear'
+            target: '/sagard/section/defeating-the-devil-bear'
         },
         failure: {
             text: 'You are too badly wounded to continue',
-            target: '/section/vanquished'
+            target: '/sagard/section/vanquished'
         },
     },
     {
@@ -299,14 +299,14 @@ With surprise on your side, you strike first. For the first three rounds of comb
         ],
         success: {
             text: 'You have defeated the Medigian Traders',
-            target: '/section/crushing-the-medigian-traders'
+            target: '/sagard/section/crushing-the-medigian-traders'
         },
         failure: {
             text: 'You are too badly wounded to continue',
-            target: '/section/losing-to-the-medigian-traders'
+            target: '/sagard/section/losing-to-the-medigian-traders'
         },
         canFlee: true,
-        flee: '/section/vanquished'
+        flee: '/sagard/section/vanquished'
     },
     {
         section: 41,
@@ -330,14 +330,14 @@ drawn.`,
         ],
         success: {
             text: 'You have defeated the Tehnites',
-            target: '/section/defeating-the-tehnites'
+            target: '/sagard/section/defeating-the-tehnites'
         },
         failure: {
             text: 'Your quest is terminated. Start over.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-tehnites'
+        flee: '/sagard/section/fleeing-the-tehnites'
     },
     {
         section: 45,
@@ -357,11 +357,11 @@ The serpent rises from the ground, and its burning red eyes glare at you. You ar
         ],
         success: {
             text: "The Furred Snake is defeated",
-            target: '/section/killing-the-furred-snake'
+            target: '/sagard/section/killing-the-furred-snake'
         },
         failure: {
             text: "Your quest is over. Start again.",
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         }
     },
     {
@@ -380,14 +380,14 @@ wind rushing at you from the darkness beyond. There is a slight musky smell, as 
         ],
         success: {
             text: 'You have defeated the Bats',
-            target: '/section/beating-the-bats'
+            target: '/sagard/section/beating-the-bats'
         },
         failure: {
             text: 'You are finished. Your quest is over. Start again.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
         canFlee: true,
-        flee: '/section/the-valleys-end'
+        flee: '/sagard/section/the-valleys-end'
     },
     {
         section: 51,
@@ -404,11 +404,11 @@ wind rushing at you from the darkness beyond. There is a slight musky smell, as 
         ],
         success: {
             text: "You have defeated the Plumed Knight",
-            target: '/section/beating-the-plumed-knight'
+            target: '/sagard/section/beating-the-plumed-knight'
         },
         failure: {
             text: "You are too badly wounded to continue",
-            target: '/section/losing-to-the-plumed-knight'
+            target: '/sagard/section/losing-to-the-plumed-knight'
         },
     },
     {
@@ -447,14 +447,14 @@ You turn to fight. There are four of them and only one of you; however, as they 
         ],
         success: {
             text: "You have defeated the Aerdian Warriors",
-            target: '/section/beating-the-aerdian-warriors'
+            target: '/sagard/section/beating-the-aerdian-warriors'
         },
         failure: {
             text: "You are too badly wounded to continue",
-            target: '/section/wounded-by-the-aerdian-warriors'
+            target: '/sagard/section/wounded-by-the-aerdian-warriors'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-aerdian-warriors'
+        flee: '/sagard/section/fleeing-the-aerdian-warriors'
     },
     {
         section: 60,
@@ -474,11 +474,11 @@ He swings the axe. You dive away from its cutting arc. The savage blade cleaves 
         ],
         success: {
             text: 'The Frusti Sage is vanquished. Your reward awaits you.',
-            target: '/section/beating-the-frusti-sage'
+            target: '/sagard/section/beating-the-frusti-sage'
         },
         failure: {
             text: 'You have failed in your mission. Start again, if you dare.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
     },
     {
@@ -497,11 +497,11 @@ has the bonus of the Valkyrie’s sword. You may _not_ flee from the Frusti Sage
         ],
         success: {
             text: 'You have beaten the Frusti Sage.',
-            target: '/section/beating-the-frusti-sage'
+            target: '/sagard/section/beating-the-frusti-sage'
         },
         failure: {
             text: 'You have failed in your mission. Start again, if you dare.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
     },
     {
@@ -519,14 +519,14 @@ has the bonus of the Valkyrie’s sword. You may _not_ flee from the Frusti Sage
         ],
         success: {
             text: 'You have defeated the Ratikkan boy',
-            target: '/section/beating-the-ratikkan-boy'
+            target: '/sagard/section/beating-the-ratikkan-boy'
         },
         failure: {
             text: "You have been humiliated by the Ratikkan boy",
-            target: '/section/losing-to-the-ratikkan-boy'
+            target: '/sagard/section/losing-to-the-ratikkan-boy'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-ratikkan-boy'
+        flee: '/sagard/section/fleeing-the-ratikkan-boy'
     },
     {
         section: 70.2,
@@ -565,14 +565,14 @@ has the bonus of the Valkyrie’s sword. You may _not_ flee from the Frusti Sage
         ],
         success: {
             text: 'The kobolds are dead',
-            target: '/section/beating-the-kobolds'
+            target: '/sagard/section/beating-the-kobolds'
         },
         failure: {
             text: 'You have failed to accomplish your mission. Start again.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
         canFlee: true,
-        flee: '/section/the-valleys-end'
+        flee: '/sagard/section/the-valleys-end'
     },
     {
         section: 73,
@@ -591,17 +591,17 @@ If you are unsuccessful, the Ice Golem attacks you. He is a Level 5 fighter with
         ],
         success: {
             text: 'The Ice Golem is shattered!',
-            target: '/section/beating-the-ice-golem'
+            target: '/sagard/section/beating-the-ice-golem'
         },
         failure: {
             text: 'You have failed in your first mission. Start again.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
         special: {
             type: 'roll',
             button: 'Attempt to slip past the Ice Golem',
             rollNeeded: [4],
-            target: '/section/entering-the-ancient-structure',
+            target: '/sagard/section/entering-the-ancient-structure',
             attackAfterRoll: false,
             failText: 'Your attempt failed'
         }
@@ -637,11 +637,11 @@ You may _not_ flee the Zokapers.`,
         ],
         success: {
             text: 'You have defeated the Zokapers',
-            target: '/section/beating-the-zokapers'
+            target: '/sagard/section/beating-the-zokapers'
         },
         failure: {
             text: 'You have failed in your first mission. Start again.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
     },
     {
@@ -667,14 +667,14 @@ It is an arctic Snow Tiger - a deadly foe.`,
         ],
         success: {
             text: 'You have defeated the Snow Tiger',
-            target: '/section/beating-the-snow-tiger'
+            target: '/sagard/section/beating-the-snow-tiger'
         },
         failure: {
             text: 'You have failed in your first mission. Start again.',
-            target: '/section/introduction'
+            target: '/sagard/section/introduction'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-snow-tiger'
+        flee: '/sagard/section/fleeing-the-snow-tiger'
     },
     {
         section: 84,
@@ -705,11 +705,11 @@ It is an arctic Snow Tiger - a deadly foe.`,
         ],
         success: {
             text: 'You have successfully defeated the Yeti',
-            target: '/section/defeating-the-yeti'
+            target: '/sagard/section/defeating-the-yeti'
         },
         failure: {
             text: 'You may fight no more',
-            target: '/section/killed-in-the-ice-kingdom'
+            target: '/sagard/section/killed-in-the-ice-kingdom'
         },
     },
     {
@@ -731,14 +731,14 @@ You may flee the Man in White, but it will mean that you lose the trophy.`,
         ],
         success: {
             text: 'You have successfully defeated the Man in White',
-            target: '/section/after-the-yeti-battle'
+            target: '/sagard/section/after-the-yeti-battle'
         },
         failure: {
             text: 'You may fight no more',
-            target: '/section/killed-in-the-ice-kingdom'
+            target: '/sagard/section/killed-in-the-ice-kingdom'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-men-in-white'
+        flee: '/sagard/section/fleeing-the-men-in-white'
     },
     {
         section: 88,
@@ -763,14 +763,14 @@ You can either concede the Yeti’s pelt to them, or fight them for it.`,
         ],
         success: {
             text: 'You have successfully defeated the Men in White',
-            target: '/section/after-the-yeti-battle'
+            target: '/sagard/section/after-the-yeti-battle'
         },
         failure: {
             text: 'You may fight no more',
-            target: '/section/killed-in-the-ice-kingdom'
+            target: '/sagard/section/killed-in-the-ice-kingdom'
         },
         canFlee: true,
-        flee: '/section/fleeing-the-men-in-white'
+        flee: '/sagard/section/fleeing-the-men-in-white'
     },
     {
         section: 96,
@@ -791,17 +791,17 @@ The only way to evade the River Monster is to swim past it. To do this, you will
         ],
         success: {
             text: 'You have successfully defeated the River Monster',
-            target: '/section/beating-the-river-monster'
+            target: '/sagard/section/beating-the-river-monster'
         },
         failure: {
             text: 'Your mission is terminated',
-            target: '/section/killed-in-the-ice-kingdom'
+            target: '/sagard/section/killed-in-the-ice-kingdom'
         },
         special: {
             type: 'roll',
             button: 'Attempt to evade the River Monster',
             rollNeeded: [4],
-            target: '/section/fleeing-the-river-monster',
+            target: '/sagard/section/fleeing-the-river-monster',
             attackAfterRoll: true,
             failText: 'Your attempt to evade failed'
         }
@@ -839,11 +839,11 @@ The only way to evade the River Monster is to swim past it. To do this, you will
         ],
         success: {
             text: 'You have successfully defeated the Zokapers',
-            target: '/section/defeating-the-zokapers'
+            target: '/sagard/section/defeating-the-zokapers'
         },
         failure: {
             text: 'You have failed',
-            target: '/section/killed-in-the-ice-kingdom'
+            target: '/sagard/section/killed-in-the-ice-kingdom'
         }
     },
     {
@@ -869,11 +869,11 @@ Turning, you see the Ice Golem leering down at you. He is not nearly as formidab
         ],
         success: {
             text: 'You have successfully defeated the Ice Golem',
-            target: '/section/shattered-ice'
+            target: '/sagard/section/shattered-ice'
         },
         failure: {
             text: 'You may fight no more',
-            target: '/section/icicle-teeth'
+            target: '/sagard/section/icicle-teeth'
         }
     },
     {
@@ -928,11 +928,11 @@ Turning, you see the Ice Golem leering down at you. He is not nearly as formidab
         ],
         success: {
             text: 'You have successfully defeated the Ice Golem',
-            target: '/section/beating-the-ice-golem-2'
+            target: '/sagard/section/beating-the-ice-golem-2'
         },
         failure: {
             text: 'You may fight no more',
-            target: '/section/icicle-teeth'
+            target: '/sagard/section/icicle-teeth'
         }
     }
 ]

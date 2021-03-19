@@ -91,7 +91,7 @@ export default {
                     this.currentSection.choices = [
                         {
                             btnText: 'Fight the Plumed Knight again',
-                            sectionId: '/battle/fighting-the-plumed-knight'
+                            sectionId: '/sagard/battle/fighting-the-plumed-knight'
                         }
                     ]
                 } else if(this.$store.getters['lostToKnight']===2) {
@@ -110,21 +110,21 @@ export default {
                     this.currentSection.choices = [
                         {
                             btnText: 'Both are still alive',
-                            sectionId: '/battle/the-men-in-white'
+                            sectionId: '/sagard/battle/the-men-in-white'
                         }
                     ]
                 } else if(this.$store.getters['menInWhite'] === 1) {
                     this.currentSection.choices = [
                         {
                             btnText: 'One is dead',
-                            sectionId: '/battle/the-man-in-white'
+                            sectionId: '/sagard/battle/the-man-in-white'
                         }
                     ]
                 } else if(this.$store.getters['menInWhite'] >= 2) {
                     this.currentSection.choices = [
                         {
                             btnText: 'Both are dead',
-                            sectionId: '/section/after-the-yeti-battle'
+                            sectionId: '/sagard/section/after-the-yeti-battle'
                         }
                     ]
                 }
