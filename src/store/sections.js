@@ -709,7 +709,7 @@ She stands before you nearly naked, save for a scanty fur tunic which is cut low
         
 “Telchur!” you mutter.
         
-“One day, you shall be a great warrior, but there is much for you to learn.” Before the blackness of death can overtake you, she bends down and holds the Horn of Redemption to your mouth. In moments, your full barbarian strength returns to you. You regain all of your HP.
+“One day, you shall be a great warrior, but there is much for you to learn.” Before the blackness of death can overtake you, she bends down and holds the Horn of Redemption to your mouth. In moments, your full barbarian strength returns to you. You regain all of your **HP**.
         
 “I have saved you from death, but should you come so close again, nothing can save you. In return for this gift of life, you will carry out my will, for it is a mission that only one of your strength might accomplish.”
         
