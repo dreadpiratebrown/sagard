@@ -1,0 +1,50 @@
+.battle-card {
+  align-items: center;
+  border: 1px solid #c9c9c9;
+  display: flex;
+  flex-direction: column;
+  height: 140px;
+  justify-content: space-between;
+  position: relative;
+  text-align: center;
+  width: 120px;
+}
+
+.battle-card--title {
+  background: #ffffff;
+  font-family: "Abril Fatface";
+  font-size: 0.75rem;
+  margin-top: -9px;
+  text-transform: uppercase;
+}
+
+.battle-card--info {
+  align-self: stretch;
+  font-size: 12px;
+}
+
+.battle-card--info img {
+  border-radius: 45px;
+  height: 90px;
+  left: 15px;
+  position: absolute;
+  top: 10px;
+  width: 90px;
+  z-index: -1;
+}
+
+.hp-bar--bg {
+  background: #c9c9c9;
+  height: 20px;
+  width: 100%;
+}
+
+.hp-bar--fg {
+  align-items: center;
+  background: darkred;
+  color: #fff;
+  display: flex;
+  height: 20px;
+  justify-content: flex-end;
+  padding-right: 1px;
+}
