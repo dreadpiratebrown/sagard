@@ -1,6 +1,6 @@
 # sagard
 
-In 1985, Gary Gygax and Flint Dille published "Sagard the Barbarian #1 - The Ice Dragon". In 1993, my family moved into a rented house in Timonium, MD, and I found a copy of "Sagard the Barbarian #2 - the Green Hydra" in the basement.
+In 1985, Gary Gygax and Flint Dille published "Sagard the Barbarian #1 - The Ice Dragon". In 1993, my family moved into a rented house in Timonium, MD, and I found a copy of "Sagard the Barbarian #2 - the Green Hydra" in the basement. I loved it.
 
 "Sagard the Barbarian" is a series of solo RPG books in the "choose your own adventure" style. You read along, make choices, fight battles, win trophies, and try to stay alive. Sometimes this is not the easiest thing to do.
 
