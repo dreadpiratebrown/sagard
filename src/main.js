@@ -7,6 +7,7 @@ import App from './App.vue';
 import Intro from './components/story/Intro.vue';
 import StorySection from './components/story/StorySection.vue';
 import StoryBattle from './components/story/StoryBattle.vue';
+import Combat from './components/story/Combat.vue';
 
 const router = createRouter({
     routes: [
@@ -23,6 +24,10 @@ const router = createRouter({
             path: '/sagard/battle/:id',
             component: StoryBattle,
             props: true
+        },
+        {
+            path: '/sagard/combat/',
+            component: Combat
         }
     ],
     history: createWebHistory(),

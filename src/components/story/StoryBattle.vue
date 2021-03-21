@@ -2,7 +2,7 @@
     <div class="modal" v-if="showEvent">
         <div class="backdrop"></div>
         <div class="modal-content">
-            <p>{{ event.text }}</p>
+            <p v-html="event.text"></p>
             <base-button v-for="btn in event.choices" :key="btn.target" :to="btn.target" link>{{ btn.btnText }}</base-button>
             <base-button @click="closeModal" mode="attack">{{ event.closeBtn }}</base-button>
         </div>
@@ -150,7 +150,7 @@ export default {
     mounted() {
         this.emitter.on('allyAttacked', allyInfo => {
             this.allies[this.allies.findIndex(ally => ally.name === allyInfo.name)].hp = allyInfo.hp;
-        })
+        });
     },
     beforeUpdate() {
         this.enemyRefs = [];

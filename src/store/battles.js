@@ -3,6 +3,7 @@ const battles = [
         section: 3,
         id: 'fighting-the-mountain-lion',
         title: 'Fighting the Mountain Lion',
+        text: 'If this is your first combat, <a href="../combat/" id="battleIntro">here is a brief introduction to the combat system</a>.',
         foes: [
             {
                 name: "Mountain Lion",
@@ -27,7 +28,9 @@ const battles = [
         id: 'attacking-the-frost-fighters',
         title: 'Attacking the Frost Fighters',
         text: `You spring over the hill, shaking your spear. Never before have the Frost Fighters been
-surprised by a human on a mountain trail. This gives you an attack advantage of 4 free rolls before your attack roll. The best strategy is to take out as many of them as possible before they get to strike, because every surviving Frost Fighter will counterattack before your next attack. You will find that, though they are ferocious in the attack, they quickly shatter when you hit them. You may _not_ flee the Frost Fighters.`,
+surprised by a human on a mountain trail. This gives you an attack advantage of 4 free rolls before your attack roll. The best strategy is to take out as many of them as possible before they get to strike, because every surviving Frost Fighter will counterattack before your next attack. You will find that, though they are ferocious in the attack, they quickly shatter when you hit them. You may _not_ flee the Frost Fighters.
+
+If this is your first combat, <a href="../combat/" id="battleIntro">here is a brief introduction to the combat system</a>.`,
         foes: [
             {
                 name: 'Frost Fighter 1',
@@ -79,7 +82,9 @@ surprised by a human on a mountain trail. This gives you an attack advantage of 
         id: 'fighting-the-frost-fighters-one-by-one',
         title: 'Fighting the Frost Fighters One by One',
         text: `You adopt a defensive stance in the crevasse. The Frost Fighters quickly sense your heat
-and charge toward you. Fortunately, they can only strike you one at a time. You may _not_ flee the Frost Fighters.`,
+and charge toward you. Fortunately, they can only strike you one at a time. You may _not_ flee the Frost Fighters.
+
+If this is your first combat, <a href="../combat/" id="battleIntro">here is a brief introduction to the combat system</a>.`,
         foes: [
             {
                 name: 'Frost Fighter 1',
@@ -393,7 +398,7 @@ wind rushing at you from the darkness beyond. There is a slight musky smell, as 
         section: 51,
         id: 'fighting-the-plumed-knight',
         title: 'Fighting the Plumed Knight',
-        text: `You may _not_ flee from the Plumed Knight.`,
+        text: `You may _not_ flee from the Plumed Knight. If this is your first combat, <a href="../combat/" id="battleIntro">here is a brief introduction to the combat system</a>.`,
         foes: [
             {
                 name: "Plumed Knight",

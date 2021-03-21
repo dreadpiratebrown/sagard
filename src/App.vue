@@ -62,6 +62,6 @@ aside {
 
 main {
   overflow: auto;
-  padding: 2rem;
+  padding: 2rem 2rem 4rem;
 }
 </style>

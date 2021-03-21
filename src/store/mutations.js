@@ -9,6 +9,7 @@ export default {
         }
         state.lostToKnight = 0;
         state.menInWhite = 0;
+        state.battleIntro = true;
     },
     setSagardHp(state, payload) {
         // update HP
